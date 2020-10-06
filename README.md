@@ -14,7 +14,7 @@ It is 10x faster than [MsgPack-Cli](https://github.com/msgpack/msgpack-cli) and 
 
 MessagePack has a compact binary size and a full set of general purpose expressive data types. Please have a look at the [comparison with JSON, protobuf, ZeroFormatter section](#comparison) and learn [why MessagePack C# is the fastest](#performance).
 
-## Table of Contents
+## 目录
 
 - [Installation](#installation)
     - [NuGet packages](#nuget-packages)
@@ -62,12 +62,12 @@ MessagePack has a compact binary size and a full set of general purpose expressi
 - [How to build](#how-to-build)
 - [Author Info](#author-info)
 
-## Installation
+## 安装
 
-This library is distributed via NuGet. Special [Unity support](#unity) is available, too.
+本库通过NuGet进行发布.同样也支持 [Unity support](#unity).
 
-We target .NET Standard 2.0 with special optimizations for .NET Core 2.1+, making it compatible with most reasonably recent .NET runtimes such as Core 2.0 and later, Framework 4.6.1 and later, Mono 5.4 and later and Unity 2018.3 and later.
-The library code is pure C# (with Just-In-Time IL code generation on some platforms).
+此库是目标框架是.NET Standard 2.0 但晚我们针对.net core2.1+的实现版本进行了特别的优化, 使其与最新的.NET运行时兼容，例如Core 2.0和更高版本，Framework 4.6.1和更高版本，Mono 5.4和更高版本以及Unity 2018.3和更高版本。
+此库代码是纯C＃（在某些平台上带有即时IL代码生成）。
 
 ### NuGet packages
 
